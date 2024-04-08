@@ -1,10 +1,10 @@
 # Load necessary libraries
 library(here)
-library(bupaR)
-library(eventdataR)
-library(processmapR)
-library(edeaR)
-library(dplyr)
+library(bupaR) # For process mining 
+library(eventdataR) # For event log data manipulation
+library(processmapR) # For process map visualization
+library(edeaR) # For event data analysis
+library(dplyr) # For data manipulation
 
 # Read the dataset
 dataset <- read.csv(here("Y2S2", "Datasets", "Insurance_claims_event_log.csv"))
